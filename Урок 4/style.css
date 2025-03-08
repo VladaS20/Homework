@@ -1,0 +1,41 @@
+.p1 {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+}
+.p2 {
+  text-decoration: line-through;
+}
+.p3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.p4 {
+  word-spacing: 30px;
+  text-decoration: overline;
+  text-decoration-style: wavy;
+}
+.p5 {
+  letter-spacing: 5px;
+  text-decoration: underline double;
+}
+.p6 {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  text-indent: 40px;
+  text-align: justify;
+}
+.p6 span {
+	text-decoration: underline solid;
+	font-weight: bold;
+}
+.p7 {
+  font-size: 40px;
+  color: #f03333;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: 5px 5px #f76d6d;
+  text-align: right;
+}
