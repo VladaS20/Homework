@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.form {
+	background: #bbb3b3;
+	overflow: auto;
+	border: 1px solid #000;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	max-width: 1260px;
+	max-height: 500px;
+}
+
+.card {
+	background: #dabb58;
+	padding: 10px 30px 30px;
+	margin: 10px 10px 15px 5px;
+	display: inline-block;
+	border: 2px solid #020202;
+	border-radius: 20px;
+	box-shadow: inset 1px 1px 5px #000, inset -1px -1px 5px #000;
+}
