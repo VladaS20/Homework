@@ -1,0 +1,27 @@
+body {
+  background: #4b4a4a;
+  color: aliceblue;
+  font-family: "Big Shoulders";
+  font-size: medium;
+}
+
+.sq {
+  height: 100px;
+  background: aliceblue;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  right: 50px;
+}
+
+.cr {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #e25252;
+  position: fixed;
+  bottom: 150px;
+  left: 60%;
+  right: 50px;
+}
