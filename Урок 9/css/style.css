@@ -1,0 +1,42 @@
+body {
+  background: #333131;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  color: aliceblue;
+  font-size: larger;
+  margin-top: 30px;
+  position: relative;
+}
+
+.title::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #aa1d1d;
+  border: 3px solid #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-90px);
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #261daa;
+  border: 3px solid #fff;
+  position: absolute;
+  right: 50%;
+  transform: translate(90px, -20px);
+}
