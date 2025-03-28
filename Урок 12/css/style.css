@@ -27,7 +27,7 @@ body {
   padding: 12px 0px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
 }
 
@@ -45,17 +45,16 @@ body {
 .header__logo {
   max-width: 74px;
   padding: 0px 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  flex: 1 0 auto;
 }
 
 .header__socials {
   max-width: 370px;
-  margin-left: auto;
   display: flex;
   gap: 30px;
+  flex: 1;
+  margin-left: auto;
+  justify-content: end;
   flex-wrap: wrap;
 }
 
