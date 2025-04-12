@@ -420,7 +420,11 @@
     justify-content: center;
     grid-template: none;
     text-align: center;
-    gap:0
+    gap: 0;
+  }
+
+  .footer__col-link:last-child {
+    display: inline-block;
   }
 
   .footer__col:first-child {
