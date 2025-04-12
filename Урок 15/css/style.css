@@ -423,7 +423,7 @@
     gap: 0;
   }
 
-  .footer__col-link:last-child {
+  .footer__col-link {
     display: inline-block;
   }
 
