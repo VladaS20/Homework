@@ -1,0 +1,870 @@
+@media (max-width: 1280px) {
+  .nav__list {
+    display: none;
+  }
+
+  /* ================ */
+
+  .card-product__text {
+    margin-top: 25px;
+  }
+
+  .decrement-button,
+  .increment-button {
+    margin: 0px 20px;
+  }
+
+  .card-product__discount {
+    padding: 10px 10px;
+    max-width: 95px;
+  }
+
+  .card-product__price {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 910px) {
+  /* =========== */
+
+  .tutorial__img-button {
+    transform: scale(0.8);
+  }
+
+  /* ========== */
+
+  .shop__title {
+    font-size: 36px;
+  }
+
+  .tags,
+  .shop__filters select {
+    font-size: 15px;
+  }
+
+  /* =========== */
+
+  .gallery {
+    height: 1200.75px;
+  }
+
+  .gallery__slide {
+    font-size: 15px;
+  }
+
+  .card-product__img {
+    min-height: 288px;
+  }
+
+  .card-product__text {
+    max-height: 85px;
+    margin: 15px 0 15px;
+  }
+
+  .card-product__status {
+    padding-left: 20px;
+  }
+
+  .card-product__discount {
+    padding: 8px 8px;
+  }
+
+  .card-product__discount {
+    font-size: 20px;
+  }
+
+  .card-product__cost-without-discount {
+    font-size: 18px;
+  }
+
+  .counter-input-group {
+    display: none;
+    min-height: 54px;
+  }
+
+  .card-product__basket {
+    grid-template-columns: 1fr;
+  }
+
+  /* =========== */
+
+  .advantages__card {
+    max-width: 280px;
+    max-height: 240px;
+  }
+
+  .advantages__icon {
+    margin-top: 18px;
+  }
+
+  .advantages__icon svg {
+    transform: scale(0.85);
+  }
+
+  .advantages__title {
+    font-size: 16px;
+    margin-top: 19px;
+  }
+
+  .advantages__text {
+    font-size: 14px;
+  }
+
+  .advantages__text {
+    margin-bottom: 35px;
+  }
+
+  /* ============================*/
+
+  .footer__tittle {
+    font-size: 20px;
+  }
+
+  .footer__col-list {
+    gap: 4px;
+  }
+
+  .footer__col-list,
+  .footer__col-copy {
+    font-size: 14px;
+  }
+  .footer__col-tel {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 770px) {
+  .burger-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .burger-icon span,
+  .burger-icon span::before,
+  .burger-icon span::after {
+    width: 25px;
+  }
+
+  .header__logo {
+    margin: 0 0 0 20px;
+  }
+
+  .header__basket {
+    margin: 0;
+  }
+
+  .header__basket svg {
+    width: 31px;
+    height: 31px;
+  }
+  /* ========== */
+
+  .offer__inner {
+    padding: 40px 0px 50px;
+  }
+
+  .bg {
+    background-position-y: 70px;
+  }
+
+  .bg img {
+    left: 79%;
+  }
+
+  /* =========== */
+  .tutorial__inner {
+    padding-top: 3.5vw;
+  }
+
+  .tutorial__content {
+    margin-top: 60px;
+  }
+
+  .tutorial__img-button {
+    transform: scale(0.6);
+  }
+
+  /* =============== */
+
+  .more-info {
+    margin-top: 49.8vw;
+  }
+
+  .more-info__inner {
+    gap: 0;
+  }
+
+  .more-info__content {
+    position: relative;
+    z-index: 2;
+    white-space: nowrap;
+  }
+
+  .more-info__img img {
+    position: relative;
+    z-index: 1;
+    right: 45px;
+  }
+
+  .more-info__button {
+    max-width: 141px;
+  }
+
+  /* ==================== */
+
+  .shop {
+    padding-top: 60px;
+  }
+
+  .shop__title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+
+  .tags,
+  .shop__filters select {
+    font-size: 12px;
+  }
+
+  .tags__body {
+    gap: 10px;
+  }
+
+  .tags__toggle {
+    font-size: 12px;
+  }
+
+  .shop__filters {
+    margin-top: 20px;
+    min-width: 191px;
+  }
+
+  .choices__inner {
+    padding: 7px 15px 8px 15px;
+    font-size: 12px;
+    min-height: 30px;
+  }
+  /* ==================== */
+
+  .gallery {
+    height: 800.75px;
+  }
+
+  .gallery__slide {
+    font-size: 15px;
+  }
+
+  .card-product__img {
+    width: 196px;
+    height: 196px;
+    min-height: 0;
+  }
+
+  .card-product__text {
+    max-height: 47px;
+    margin: 10px 0 10px;
+    font-size: 12px;
+  }
+
+  .card-product__status {
+    padding-left: 12px;
+    font-size: 12px;
+  }
+
+  .card-product__status::after {
+    width: 8px;
+    height: 8px;
+  }
+
+  .card-product__discount {
+    padding: 0px 8px;
+    font-size: 16px;
+    max-width: 56px;
+  }
+
+  .card-product__discounted-price {
+    font-size: 20px;
+  }
+
+  .card-product__cost-without-discount {
+    font-size: 12px;
+  }
+
+  .card-product__button {
+    padding: 7px 15.5px;
+  }
+  /* ======== */
+
+  .gallery__pagination-box {
+    padding: 40px 0 70px;
+  }
+
+  .gallery__next,
+  .gallery__prev,
+  .completcation__next,
+  .completcation__prev {
+    width: 36px;
+    height: 36px;
+  }
+  .gallery__next svg,
+  .gallery__prev svg,
+  .completcation__next svg,
+  .completcation__prev svg {
+    width: 15px;
+    height: 14px;
+  }
+
+  .gallery__pagination {
+    font-size: 16px;
+  }
+
+  /* ============ */
+
+  .main__FAQ {
+    margin: 70px 0;
+  }
+
+  .FAQ h2 {
+    font-size: 26px;
+  }
+
+  .accordion {
+    margin-top: 40px;
+  }
+
+  .accordion button {
+    padding: 18px 0 0 0;
+  }
+
+  .accordion button .icon::before {
+    width: 30px;
+  }
+
+  .accordion button .icon::after {
+    height: 30px;
+    right: 14px;
+  }
+
+  .accordion-title {
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 544px;
+  }
+
+  .content {
+    font-size: 16px;
+    max-width: 710px;
+  }
+
+  /* ================ */
+
+  .completcation {
+    padding: 60px 0;
+  }
+
+  .completcation__title {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+
+  .completcation__body {
+    gap: 10px;
+  }
+
+  .inner {
+    text-align: center;
+    gap: 8px;
+    margin: 18px 18px 31px 18px;
+    align-items: center;
+  }
+
+  .inner__title,
+  .inner__text {
+    line-height: 1.2;
+  }
+
+  /* ============== */
+
+  .order {
+    padding: 60px 0px;
+  }
+
+  .order h2 {
+    font-size: 26px;
+  }
+
+  .order__card {
+    max-width: 170px;
+  }
+
+  .order__step {
+    width: 56px;
+    height: 56px;
+    font-size: 30px;
+  }
+
+  .order__step span {
+    inset: 8px;
+  }
+
+  .order__title {
+    font-size: 14px;
+    margin-top: 17px;
+  }
+
+  .order__text {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  /* ============== */
+
+  .advantages {
+    padding: 60px 0px;
+  }
+
+  .advantages h2 {
+    font-size: 26px;
+  }
+
+  .advantages__inner {
+    gap: 15px;
+  }
+
+  .advantages__card {
+    max-width: 220px;
+    max-height: 200px;
+  }
+
+  .advantages__icon {
+    min-height: 74px;
+    min-width: 74px;
+  }
+
+  .advantages__icon svg {
+    transform: scale(0.67);
+  }
+
+  .advantages__title {
+    font-size: clamp(12px, 1.8vw, 14px);
+    margin-top: 11px;
+  }
+
+  .advantages__text {
+    font-size: 12px;
+  }
+
+  .advantages__text {
+    margin-bottom: 35px;
+  }
+
+  /* =========================== */
+
+  .footer {
+    padding: 20px 0 30px;
+  }
+
+  .footer__inner {
+    gap: 10px 15px;
+  }
+
+  .footer__tittle {
+    font-size: 14px;
+    line-height: 1.1;
+
+    margin-bottom: 6px;
+  }
+
+  .footer__col-list {
+    gap: 2px;
+  }
+
+  .footer__col-list,
+  .footer__col-copy {
+    font-size: 10px;
+    line-height: 1.4;
+  }
+  .footer__col-tel {
+    font-size: 14px;
+  }
+
+  .socials__list {
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .socials__item svg {
+    width: 21px;
+    height: 21px;
+  }
+}
+
+@media (max-width: 520px) {
+  .button {
+    padding: 2vw 7.5vw;
+    font-size: 4.1vw;
+  }
+
+  /* ==================================== */
+
+  .header__tel span {
+    display: none;
+  }
+
+  .nav-burger-menu__window {
+    min-width: 100%;
+    font-size: 24px;
+  }
+
+  .header__tel img {
+    width: 29px;
+    height: 29px;
+  }
+
+  .header__basket svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* =========================================== */
+
+  .about__inner {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .about__content {
+    margin-top: 46px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .about__text {
+    font-size: 12px;
+    max-width: auto;
+  }
+
+  .about__img {
+    align-self: center;
+  }
+
+  .about__img img {
+    align-self: center;
+    width: 265px;
+    height: 339px;
+    width: auto;
+  }
+
+  /* ========== */
+
+  .offer__inner {
+    padding: 40px 0px 0px;
+
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .offer__content h2 {
+    font-size: 3vw;
+  }
+
+  .offer__title {
+    font-size: 6.5vw;
+    margin-bottom: 9.6vw;
+  }
+
+  .offer__title p {
+    font-size: 7.6vw;
+  }
+
+  .bg {
+    background-position-y: 45%;
+  }
+  .bg img {
+    left: 0%;
+    max-width: 24.45vw;
+  }
+
+  /* ========= */
+
+  .tutorial__inner {
+    padding-top: 5.5vw;
+    flex-direction: column-reverse;
+  }
+
+  .tutorial__img img {
+    width: 317px;
+  }
+
+  .tutorial__img-conrol {
+    top: 10%;
+    left: 75%;
+  }
+
+  .tutorial__content {
+    max-width: none;
+    margin-top: 0px;
+  }
+
+  .tutorial__text {
+    font-size: 3vw;
+  }
+
+  /* ============ */
+
+  .more-info__inner {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+  .more-info__content {
+    font-size: 3.5vw;
+    margin-top: 0;
+  }
+  .more-info__content h2 {
+    font-size: 3.1vw;
+    margin-bottom: 15px;
+  }
+
+  .more-info__title {
+    margin-bottom: 30px;
+  }
+
+  .more-info__button {
+    margin-bottom: none;
+  }
+
+  .more-info__img img {
+    right: 0;
+  }
+  /* ==================== */
+
+  .shop {
+    padding-top: 30px;
+  }
+
+  .shop__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .shop__tags {
+    grid-template-columns: 1fr;
+  }
+
+  .tags__body {
+    max-height: 50px;
+  }
+
+  .shop__filters {
+    margin-top: 15px;
+  }
+
+  /* ================ */
+
+  .gallery {
+    height: 730.75px;
+  }
+
+  .card-product__img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .card-product__text {
+    max-height: 47px;
+    margin: 10px 0 10px;
+    font-size: 10px;
+  }
+
+  .card-product__status {
+    padding-left: 13px;
+    font-size: 10px;
+  }
+
+  .card-product__status::after {
+    width: 10px;
+    height: 10px;
+  }
+
+  .card-product__discount {
+    font-size: 15px;
+  }
+
+  .card-product__discounted-price {
+    font-size: 16px;
+  }
+
+  .card-product__cost-without-discount {
+    font-size: 12px;
+  }
+
+  .card-product__button {
+    padding: 10px 15.5px;
+  }
+
+  /* ======== */
+
+  .gallery__pagination-box {
+    padding: 30px 0 45px;
+    gap: 10px;
+  }
+
+  /* ============ */
+
+  .main__FAQ {
+    margin: 46px 0;
+  }
+
+  .FAQ h2 {
+    font-size: 20px;
+  }
+
+  .accordion {
+    margin-top: 38px;
+  }
+
+  .accordion button {
+    padding-top: 16px;
+  }
+
+  .accordion button .icon::before {
+    width: 24px;
+  }
+
+  .accordion button .icon::after {
+    height: 24px;
+    right: 11px;
+  }
+
+  .accordion-title {
+    font-size: 13px;
+    max-width: 302px;
+  }
+
+  .content {
+    font-size: 12px;
+    max-width: 410px;
+  }
+
+  .accordion .accordion-item button[aria-expanded="true"] + .content {
+    max-height: 15em;
+  }
+  /* =========================== */
+
+  .completcation {
+    padding: 46px 0;
+  }
+
+  /* =========================== */
+
+  .order {
+    padding: 45px 0px;
+  }
+
+  .order h2 {
+    font-size: clamp(20px, 4.9vw, 26px);
+  }
+
+  .order__inner {
+    display: grid;
+    justify-content: start;
+    margin-top: 30px;
+    gap: 30px;
+  }
+
+  .order__card {
+    max-width: 440px;
+    text-align: left;
+    display: grid;
+    grid-auto-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 7px clamp(26px, 8.2vw, 43px);
+  }
+
+  .order__step {
+    grid-row: 1 / 3;
+  }
+
+  .order__title {
+    margin-top: 0;
+    line-height: 1.2;
+    grid-column: 2 / 3;
+  }
+
+  .order__text {
+    margin-top: 0;
+    grid-column: 2 / 3;
+  }
+
+  /* ==================== */
+
+  .advantages {
+    padding: 45px 0px 25px;
+  }
+
+  .advantages h2 {
+    font-size: 20px;
+  }
+
+  .advantages__inner {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .advantages__card {
+    max-width: clamp(350px, 94.2vw, 490px);
+    max-height: 116px;
+    gap: 8px 33px;
+    padding-left: 33px;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    text-align: left;
+  }
+
+  .advantages__icon {
+    grid-row: 1 / 3;
+    margin-top: 0;
+  }
+
+  .advantages__title {
+    font-size: clamp(12px, 1.8vw, 14px);
+    margin-top: 30px;
+  }
+
+  .advantages__text {
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+
+  .advantages__text {
+    grid-column: 2 / 3;
+  }
+
+  /* ========================================== */
+
+  footer {
+    padding: 16px 0 24px;
+  }
+
+  .footer__inner {
+    grid-template-columns: 1fr 1.1fr;
+  }
+
+  .footer__col-tel {
+    grid-column: 1 / 2;
+
+    margin-top: 10px;
+  }
+
+  .footer__col-tel {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .footer__col-copy {
+    justify-self: start;
+
+    margin-top: 10px;
+  }
+}
