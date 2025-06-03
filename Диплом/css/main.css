@@ -311,7 +311,7 @@
 }
 
 .shop__filters {
-  grid-column: 1/ -1;
+  grid-column: 1/ 3;
   justify-self: end;
   min-width: 273px;
   z-index: 10;
@@ -426,6 +426,11 @@
   height: 1671.75px;
   margin: 40px auto 0;
   padding-bottom: 15px;
+}
+
+.gallery__grid-column > .gallery__wrapper {
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .gallery__slide {
