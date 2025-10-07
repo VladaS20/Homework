@@ -2,13 +2,13 @@
 // Напишите функцию calculateFinalPrice, которая принимает базовую цену товара, процент скидки и налоговую ставку. Функция должна вычислять скидку, затем прибавлять налог и возвращать итоговую цену.
 
 // Решение
-// function calculateFinalPrice (basePrice, discount, tax) {
-// 	let Price = basePrice - (basePrice*discount/100);
-// 	let finalPrice = Price + Price*tax;
-// 	return finalPrice;
-// }
+function calculateFinalPrice (basePrice, discount, tax) {
+	let Price = basePrice - (basePrice*discount/100);
+	let finalPrice = Price + Price*tax;
+	return finalPrice;
+}
 
-// console.log(calculateFinalPrice(100, 10, 0));
+console.log(calculateFinalPrice(100, 10, 0));
 
 // Пример работы:
 // console.log(calculateFinalPrice(100, 10, 0.2)); // 108
