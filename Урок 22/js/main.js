@@ -52,16 +52,18 @@ const todosHtml = document.querySelector(".todos");
 
 // Создаем функцию createTodoElement(text), которая будет создавать todo в виде разметки
 
-const createTodoElement = (text) => {
-  todosHtml.innerHTML = `
-  <li class="todo">
-          <div class="todo-text">${text}</div>
-          <div class="todo-actions">
-            <button class="button-complete button">&#10004;</button>
-            <button class="button-delete button">&#10006;</button>
-          </div>
-        </li>
-  `;
+const createTodoElement = (todo) => {
+	const todoElement = document.createElement("li");
+	todoElement.classList.add("todo");
+	todoElement.dataset.id = todo[todoKeys.id];
+	todoElement.innerHTML = `
+	<div class="todo-text">${todo[todoKeys.text]}</div>
+  <div class="todo-actions">
+		<button class="button-complete button">&#10004;</button>
+		<button class="button-delete button">&#10006;</button>
+	</div>
+	`;
+	return todoElement;
 };
 
 // Создаем функцию handleCreateTodo(todos, text), которая будет вызывать createTodo и createTodoElement
