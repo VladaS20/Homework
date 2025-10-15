@@ -66,9 +66,36 @@ const createTodoElement = (text) => {
 
 // Создаем функцию handleCreateTodo(todos, text), которая будет вызывать createTodo и createTodoElement
 
+
 const handleCreateTodo = (todos, text) => {
-  createTodo(todos, text);
-  createTodoElement(text);
+	const todo = createTodo(todos, text);
+	const todoElement = createTodoElement(todo);
+	todosElement.prepend(todoElement);
 };
 
-handleCreateTodo(todos, "Задача 1");
+formElement.addEventListener("submit", (event) => {
+	event.preventDefault();
+
+	const text = inputElement.value.trim();
+	if (!text) return;
+
+	handleCreateTodo(todos, text);
+	inputElement.value = "";
+});
+
+todosElement.addEventListener("click", ({ target }) => {
+	const todo = target.closest(".todo");
+	if (!todo) return;
+
+	const todoId = Number(todo.dataset.id);
+
+	if (target.matches(".button-complete")) {
+		completeTodoById(todos, todoId);
+		todo.classList.toggle("completed");
+	}
+
+	if (target.matches(".button-delete")) {
+		deleteTodoById(todos, todoId);
+		todo.remove();
+	}
+});
